@@ -1,83 +1,87 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escolha seu Personagem</title>
+    <title>Escolha seu personagem</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css"> 
+    <link rel="stylesheet" href="./src/css/responsivo.css">
 </head>
-
 <body>
     <main>
         <header class="cabecalho">
-            <h1 class="titulo">Character Select</h1>
+            <h1 class="titulo">
+                Character Select
+            </h1>
         </header>
-        <div class="selecao-de-personagem">
-            <div class="personagem-grande personagem jogador-1">
-                <img src="./src/imagens/thor.png" alt="Personagem selecionado Jogador 1 Thor" id="personagem-jogador-1">
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/Gojo_Satoru.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
                 <div class="nome">
-                    <h2>Thor</h2>
+                    <h2>Gojo Satoru</h2>
                 </div>
             </div>
 
             <ul class="lista-de-personagens">
-                <li class="personagem selecionado" id="thor" data-name="Thor">
+                <li class="personagem selecionado" id="satoru-gojo" data-name="Satoru Gojo">
                     <span class="tag">1P</span>
-                    <img src="src/imagens/thor.jpg" alt="Personagem Thor">
+                    <img src="./src/imagens/SatoruGojo.jpg" alt="Personagem Satoru Gojo">
                 </li>
 
-                <li class="personagem selecionado" id="homem-de-ferro" data-name="Homem de Ferro">
+                <li class="personagem" id="suguro-geto" data-name="Suguro Geto">
                     <span class="tag">1P</span>
-                    <img src="src/imagens/homem-de-ferro.jpg" alt="Personagem Homem de ferro">
+                    <img src="./src/imagens/SuguroGeto.jpg" alt="Personagem Suguro Geto">
                 </li>
 
-                <li class="personagem selecionado" id="viuva-negra" data-name="Viuva Negra">
+                <li class="personagem" id="panda" data-name="Panda">
                     <span class="tag">1P</span>
-                    <img src="src/imagens/viuva-negra.jpg" alt="Personagem Viua Negra">
+                    <img src="./src/imagens/panda.jpg" alt="Personagem Panda">
                 </li>
 
-                <li class="personagem" id="hulk" data-name="Hulk">
+                <li class="personagem" id="toge-inumaki" data-name="Toge Inumaki">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/hulk.jpg" alt="Personagem Hulk">
+                    <img src="./src/imagens/togeInumaki.jpg" alt="Personagem Toge Inumaki">
                 </li>
 
-                <li class="personagem" id="capitao-america" data-name="Capitão América">
+                <li class="personagem" id="yuji-itadori" data-name="Yuji Itadori">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/capitao-america.jpg" alt="Personagem Capitão América">
+                    <img src="./src/imagens/YujiItadori.jpg" alt="Personagem Yuji Itadori">
                 </li>
 
-                <li class="personagem jogador-2-selecionado" id="ultron" data-name="Ultron">
+                <li class="personagem jogador-2-selecionado" id="mahito" data-name="Mahito">
                     <span class="tag">2P</span>
-                    <img src="./src/imagens/ultron.jpg" alt="Personagem Ultron">
+                    <img src="./src/imagens/Mahito-perfil.jpg" alt="Personagem Mahito">
                 </li>
 
-                <li class="personagem" id="doutor-doom" data-name="Doutor Doom">
+                <li class="personagem" id="kasumi-miwa" data-name="Kasumi Miwa">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/doutor-doom.jpg" alt="Personagem Doutor Doom">
+                    <img src="./src/imagens/kasumiMiwa.jpg" alt="Personagem Kasumi Miwa">
                 </li>
 
-                <li class="personagem" id="nova" data-name="Nova">
+                <li class="personagem" id="sukuna" data-name="Sukuna">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/nova.jpg" alt="Personagem Nova">
+                    <img src="./src/imagens/Sukuna.jpg" alt="Personagem Sukuna">
                 </li>
 
-                <li class="personagem" id="fenix" data-name="Fênix">
+                <li class="personagem" id="yuta-okkotsu" data-name="Yuta Okkotsu">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/fenix.jpg" alt="Personagem Fênix">
+                    <img src="./src/imagens/yutaokkotsu.jpg" alt="Personagem Yuta Okkotsu">
                 </li>
             </ul>
 
-            <div class="personagem-grande personagem jogador-2">
-                <img src="./src/imagens/ultron.png" alt="Personagem selecionado Jogador 2 Ultron"
-                    id="personagem-jogador-2">
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/Mahito.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
                 <div class="nome">
-                    <h2>Ultron</h2>
+                    <h2>Mahito</h2>
                 </div>
             </div>
         </div>
     </main>
-
 </body>
-
 </html>
