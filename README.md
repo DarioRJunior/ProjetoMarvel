@@ -1,5 +1,5 @@
 <h1 align="center">
-    Projeto Marvel - Seleção de Personagens
+    Projeto Jujutsu Kaisen - Seleção de Personagens
 </h1>
 <h4 align="center"> 
 Projeto: 🚧 Em Construção 🚧
