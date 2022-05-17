@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,15 @@
     <title>Escolha seu personagem</title>
     <link rel="stylesheet" href="./src/css/variaveis.css" />
     <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/fontes.css" />
     <link rel="stylesheet" href="./src/css/animacoes.css" />
-    <link rel="stylesheet" href="./src/css/estilos.css"> 
+    <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
 </head>
+
 <body>
     <main>
+        <audio src="src/audios/JujutsuKaisenOpening.mp3" loop autoplay></audio>
         <header class="cabecalho">
             <h1 class="titulo">
                 Character Select
@@ -22,21 +24,22 @@
         </header>
         <div class="selecao-de-personagens">
             <div class="personagem-grande personagem-jogador-1">
-                <img src="./src/imagens/Gojo_Satoru.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <img src="./src/imagens/satoru-gojo.png" alt="Personagem selecionado jogador 1"
+                    id="personagem-jogador-1">
                 <div class="nome">
-                    <h2>Gojo Satoru</h2>
+                    <h2 id="nome-jogador-1">Gojo Satoru</h2>
                 </div>
             </div>
 
             <ul class="lista-de-personagens">
                 <li class="personagem selecionado" id="satoru-gojo" data-name="Satoru Gojo">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/SatoruGojo.jpg" alt="Personagem Satoru Gojo">
+                    <img src="./src/imagens/satoru-gojo.jpg" alt="Personagem Satoru Gojo">
                 </li>
 
                 <li class="personagem" id="suguro-geto" data-name="Suguro Geto">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/SuguroGeto.jpg" alt="Personagem Suguro Geto">
+                    <img src="./src/imagens/suguro-geto.jpg" alt="Personagem Suguro Geto">
                 </li>
 
                 <li class="personagem" id="panda" data-name="Panda">
@@ -46,7 +49,7 @@
 
                 <li class="personagem" id="toge-inumaki" data-name="Toge Inumaki">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/togeInumaki.jpg" alt="Personagem Toge Inumaki">
+                    <img src="./src/imagens/toge-inumaki.jpg" alt="Personagem Toge Inumaki">
                 </li>
 
                 <li class="personagem" id="yuji-itadori" data-name="Yuji Itadori">
@@ -56,7 +59,7 @@
 
                 <li class="personagem jogador-2-selecionado" id="mahito" data-name="Mahito">
                     <span class="tag">2P</span>
-                    <img src="./src/imagens/Mahito-perfil.jpg" alt="Personagem Mahito">
+                    <img src="./src/imagens/mahito.jpg" alt="Personagem Mahito">
                 </li>
 
                 <li class="personagem" id="kasumi-miwa" data-name="Kasumi Miwa">
@@ -69,19 +72,21 @@
                     <img src="./src/imagens/Sukuna.jpg" alt="Personagem Sukuna">
                 </li>
 
-                <li class="personagem" id="yuta-okkotsu" data-name="Yuta Okkotsu">
+                <li class="personagem" id="nobara-kugisaki" data-name="Nobara Kugisaki">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/yutaokkotsu.jpg" alt="Personagem Yuta Okkotsu">
+                    <img src="./src/imagens/NobaraKugisaki.jpg" alt="Personagem Nobara Kugisaki">
                 </li>
             </ul>
 
             <div class="personagem-grande personagem-jogador-2">
-                <img src="./src/imagens/Mahito.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <img src="./src/imagens/mahito.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
                 <div class="nome">
                     <h2>Mahito</h2>
                 </div>
             </div>
         </div>
     </main>
+    <script src="src/js/index.js"></script>
 </body>
+
 </html>
