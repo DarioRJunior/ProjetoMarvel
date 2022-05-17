@@ -15,7 +15,11 @@ Projeto: 🚧 Em Construção 🚧
  
  Está pagina foi criada para treinar meus conhecimentos com html,css3 e Javascript <br>
  Site da página disponivel em: https://dariorjunior.github.io/SelecaoDePersonagem/
+ 
 
+
+
+https://user-images.githubusercontent.com/62716267/168844296-2c285dc7-8b2e-446b-b40c-2b9a2fc8fd61.mp4
 
 ## 🛠 Tecnologias
 
